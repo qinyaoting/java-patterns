@@ -15,6 +15,7 @@ public class PriceVisitor extends Visitor {
         total = 0;
     }
 
+    // 计算总价
     public float value() {
         return total;
     }

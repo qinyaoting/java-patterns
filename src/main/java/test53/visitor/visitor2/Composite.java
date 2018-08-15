@@ -10,7 +10,7 @@ import java.util.Vector;
  * To change this template use File | Settings | File Templates.
  * Description:
  */
-public abstract class Composite extends Equipment {
+public abstract class Composite extends Equipment {     //合成类
 
     private Vector parts = new Vector<>(10);
 

@@ -8,9 +8,9 @@ package test53.visitor.visitor2;
  * To change this template use File | Settings | File Templates.
  * Description:
  */
-public abstract class Equipment {
+public abstract class Equipment {   //所有电脑配件的基类
 
-    public abstract void accept(Visitor vls);
+    public abstract void accept(Visitor vls);   //需要接受Visitor
 
     public abstract double price();
 }

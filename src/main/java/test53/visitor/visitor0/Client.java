@@ -10,7 +10,9 @@ package test53.visitor.visitor0;
  */
 public class Client {
 
-
+    /**
+     * 节点固定不变, 使用访问者模式, 如果节点经常增加, 不能使用
+     */
     private static ObjectStructure aObjects;
     private static Visitor visitor;
 
